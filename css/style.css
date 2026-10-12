@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
 body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
     background-color: #071A16;
     color: #F4F7E8;
 }
@@ -48,11 +53,29 @@ header a {
     border-radius: 15px;
 }
 
+.kartya h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+}
+
 .kartya img {
     width: 100% !important;
     height: 500px !important;
     object-fit: cover;
     border-radius: 12px;
+    box-shadow: 3px 10px 15px 5px rgba(0,0,0,0.75);
+}
+
+.kartya ul {
+    list-style-type: none;
+    padding: 0px 10px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.kartya strong {
+    color: #FFB86B;
 }
 
 footer {
