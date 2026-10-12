@@ -37,3 +37,16 @@ header a {
     object-fit: cover;
     border-radius: 15px;
 }
+
+.kartya {
+    background-color: #3E6358;
+    border: 2px solid #F4F7E8;
+    border-radius: 15px;
+}
+
+.kartya img {
+    width: 100% !important;
+    height: 500px !important;
+    object-fit: cover;
+    border-radius: 12px;
+}
