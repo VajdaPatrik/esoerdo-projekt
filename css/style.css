@@ -1,4 +1,13 @@
-
+:root {
+    --bg: #071A16;
+    --bg-soft: #0c2822;
+    --lime: #b6f23c;
+    --text: #f1f3ec;
+    --muted: #9fb0a8;
+    --line: rgba(255, 255, 255, .14);
+    --serif: "Cormorant Garamond", Georgia, serif;
+    --sans: "Inter", system-ui, sans-serif;
+}
 
 body{
     background-color: #071A16;
