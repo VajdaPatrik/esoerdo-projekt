@@ -1,11 +1,13 @@
-body{
+body {
     background-color: #071A16;
     color: #F4F7E8;
 }
+
 header {
     background-color: #04110F !important;
-  
+
 }
+
 .navbar {
     background-color: transparent !important;
 }
@@ -17,25 +19,27 @@ header {
 header .nav-link {
     padding: 8px 16px;
 }
+
 header a {
     color: #fff !important;
 }
+
 @media (min-width: 992px) {
     header ul {
         margin-right: 30px;
     }
 }
-.active{
+
+.active {
     color: #b1b1b1 !important;
     font-weight: bold;
 }
 
 .carousel-item img {
-    margin: auto;
+    margin: 0px;
     width: 100% !important;
-    height: 350px !important;
+    max-height: 800px !important;
     object-fit: cover;
-    border-radius: 15px;
 }
 
 .kartya {
@@ -49,4 +53,9 @@ header a {
     height: 500px !important;
     object-fit: cover;
     border-radius: 12px;
+}
+
+footer {
+    padding: 2rem 1rem;
+    font-size: .8rem;
 }
