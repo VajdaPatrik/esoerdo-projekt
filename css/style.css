@@ -1,3 +1,7 @@
+body{
+    background-color: #071A16;
+    color: #F4F7E8;
+}
 header {
     background-color: #04110F !important;
   
@@ -31,4 +35,5 @@ header a {
     width: 100% !important;
     height: 350px !important;
     object-fit: cover;
+    border-radius: 15px;
 }
