@@ -1,13 +1,28 @@
-.collapse{
-    justify-content: flex-end
+header {
+    background-color: #04110F !important;
+  
 }
-header ul{
-    padding: 15px;
-    margin-right: 30px;
+
+.navbar {
+    background-color: transparent !important;
 }
-header ul li{
- padding: 0px 16px;
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
-header{
-    background-color: #04110F; 
+
+header .nav-link {
+    padding: 8px 16px;
+}
+header a {
+    color: #fff !important;
+}
+@media (min-width: 992px) {
+    header ul {
+        margin-right: 30px;
+    }
+}
+.active{
+    color: #b1b1b1 !important;
+    font-weight: bold;
 }
