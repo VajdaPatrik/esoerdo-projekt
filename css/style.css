@@ -25,3 +25,10 @@ header a {
     color: #b1b1b1 !important;
     font-weight: bold;
 }
+
+.carousel-item img {
+    margin: auto;
+    width: 100% !important;
+    height: 350px !important;
+    object-fit: cover;
+}
