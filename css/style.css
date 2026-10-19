@@ -324,3 +324,29 @@ footer {
     padding: 2rem 1rem;
     font-size: .8rem;
 }
+
+
+
+/* TESZT FUNKCIÓ */
+
+.kepek {
+    position: relative;
+    width: 100% !important;
+}
+
+.kepek img {
+    width: 100% !important;
+    display: block;
+}
+
+.masodikKep {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.kepek:hover .masodikKep {
+    opacity: 1;
+}
