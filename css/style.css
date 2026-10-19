@@ -359,3 +359,54 @@ footer {
 #progress {
     width: 0%;
 }
+
+
+
+
+
+.retegekBody {
+    background-color: #f4f1e6;
+    color: #1d3a2d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.retegekBody h1, h2 {
+    font-family: "Playfair Display", serif;
+    color: #173f31;
+}
+
+.halvany {
+    background-color: #e8ecdc;
+}
+
+.sotetzold {
+    background-color: #173f31;
+}
+
+.szam {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #173f31;
+}
+
+.kep {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+.tudtad {
+    border-left: 3px solid #173f31;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+
