@@ -346,3 +346,11 @@ footer {
 .kepek:hover .masodikKep {
     opacity: 1;
 }
+ 
+.kviz-kartya {
+    max-width: 650px;
+}
+ 
+#progress {
+    width: 0%;
+}
