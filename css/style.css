@@ -296,7 +296,8 @@ header a {
 
 .kartya {
     background-color: #3E6358;
-    border: 2px solid #F4F7E8;
+    /*border: 2px solid #F4F7E8;*/
+    border: 2px solid var(--lime);
     border-radius: 15px;
 }
 
@@ -410,3 +411,6 @@ footer {
     transform: translateY(-5px);
 }
 
+.aloldalCim {
+    color: var(--text);
+}
